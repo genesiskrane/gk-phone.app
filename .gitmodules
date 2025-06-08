@@ -1,0 +1,3 @@
+[submodule "src/controllers"]
+	path = src/controllers
+	url = https://github.com/genesiskrane/controllers
