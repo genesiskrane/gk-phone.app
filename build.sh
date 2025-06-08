@@ -17,5 +17,8 @@ npx vite build
 
 find . -mindepth 1 ! -name 'dist' ! -path './dist/*' -exec rm -rf {} +
 
-cd ../server
+cd ..
+ls
+
+cd server/
 ls
