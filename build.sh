@@ -11,6 +11,10 @@ mv !(server) server/
 # Clone the parent or child repository into the current directory
 git clone https://github.com/genesiskrane/app 
 
-npm install  # or yarn or pnpm
+mv app/* .
+
+rmdir app
+
+npm install 
 
 ls
