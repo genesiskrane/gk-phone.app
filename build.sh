@@ -11,10 +11,9 @@ mv !(server) server/
 # Clone the parent or child repository into the current directory
 git clone https://github.com/genesiskrane/app 
 
-shopt -s dotglob
 mv app/* .
 
-rmdir app
+rm -rf app
 
 npm install 
 
