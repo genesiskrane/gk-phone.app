@@ -1,8 +1,3 @@
-# Load .env file
-set -o allexport
-source ../../.env
-set +o allexport
-
 # Now use the variables
 echo "Environment: $APP_NAME"
 echo "API Key: $PORT"
@@ -14,3 +9,5 @@ git clone https://github.com/genesiskrane/app temp-child
 mv temp-child app
 
 npm install  # or yarn or pnpm
+
+ls
