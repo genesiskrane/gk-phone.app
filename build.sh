@@ -9,6 +9,14 @@ git clone $REPO_FRONTEND client
 mv core/* .
 rm -rf core
 
+cd server/
+ls
+
+cd .. 
+
+cd server/
+ls
+
 npm install 
 
 cd client 
@@ -20,5 +28,3 @@ find . -mindepth 1 ! -name 'dist' ! -path './dist/*' -exec rm -rf {} +
 cd ..
 ls
 
-cd server/
-ls
