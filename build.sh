@@ -5,6 +5,7 @@ echo "API Key: $PORT"
 
 
 mkdir server
+shopt -s dotglob
 mv * server/
 
 # Clone the parent or child repository into the current directory
