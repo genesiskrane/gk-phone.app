@@ -12,7 +12,7 @@ rm -rf app
 npm install 
 
 cd client 
-npm run build
+npx vite build
 
 find . -mindepth 1 ! -name 'dist' ! -path './dist/*' -exec rm -rf {} +
 ls
