@@ -5,8 +5,8 @@ echo "API Key: $PORT"
 
 
 mkdir server
+shopt -s extglob
 mv !(server) server/
-
 
 # Clone the parent or child repository into the current directory
 git clone https://github.com/genesiskrane/app 
