@@ -1,6 +1,7 @@
 mkdir server
 shopt -s extglob
-mv !(server) server/
+mv !(server|node_modules) server/
+
 
 # Clone the parent or child repository into the current directory
 git clone $REPO_EXT core 
