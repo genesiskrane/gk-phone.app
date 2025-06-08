@@ -17,6 +17,8 @@ cd ..
 cd server/
 ls
 
+cd ..
+
 npm install 
 
 cd client 
