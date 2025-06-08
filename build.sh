@@ -10,16 +10,6 @@ git clone $REPO_FRONTEND client
 mv core/* .
 rm -rf core
 
-cd server/
-ls
-
-cd .. 
-
-cd server/
-ls
-
-cd ..
-
 npm install 
 
 cd client 
