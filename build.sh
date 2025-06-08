@@ -5,7 +5,7 @@ echo "API Key: $PORT"
 
 
 mkdir server
-move * server
+mv * server/
 
 # Clone the parent or child repository into the current directory
 git clone https://github.com/genesiskrane/app 
